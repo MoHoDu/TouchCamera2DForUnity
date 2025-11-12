@@ -6,6 +6,13 @@
   "unity": "2019.1",
   "dependencies": {
   },
+  "samples": [
+    {
+      "displayName": "Basic Usage Example",
+      "description": "Shows basic movement and zoom of the touch/click",
+      "path": "Samples/Sample01"
+    }
+  ],
   "keywords": [
     "camera",
     "camera 2D"
