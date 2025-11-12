@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e113c5c82d48b496f91b42e9381c829f, type: 3}
+  m_Name: CameraBehaviorProfile
+  m_EditorClassIdentifier: Assembly-CSharp::CameraBehavior.Configs.CameraBehaviorProfile
+  actions:
+  - name: "\uD328\uB2DD"
+    order: 0
+    input:
+      rid: 6888407645006069860
+    action:
+      rid: 6888407645006069863
+  - name: "\uCF5C \uD14C\uC2A4\uD2B8"
+    order: 1
+    input:
+      rid: 6888407645006069866
+    action:
+      rid: 6888407645006069868
+  - name: "\uB9C8\uC6B0\uC2A4 \uC90C\uC778\uC544\uC6C3"
+    order: 2
+    input:
+      rid: 6888407645006069871
+    action:
+      rid: 6888407645006069873
+  - name: "\uB9C8\uC6B0\uC2A4 \uD074\uB9AD \uD14C\uC2A4\uD2B8"
+    order: 3
+    input:
+      rid: 6888407645006069878
+    action:
+      rid: 6888407645006069879
+  - name: "\uC90C \uC774\uD6C4 \uC774\uB3D9 \uBCF4\uC815"
+    order: 4
+    input:
+      rid: 6888407645006069875
+    action:
+      rid: 6888407645006069876
+  debugLogging: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6888407645006069860
+      type: {class: MouseDragConfig, ns: CameraBehaviour.DataLayer.Config.Input, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        minDelta: 0
+        onStartValidate: 0
+        onDoingValidate: 1
+        onEndValidate: 0
+    - rid: 6888407645006069863
+      type: {class: MoveActionConfig, ns: CameraBehaviour.DataLayer.Config.Action.Move, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        actionDelay: 0
+        smoothTime: 0
+        smoothTimeInfo: "\uB3D9\uC791 \uC2DC\uAC04\uC774 0\uC774\uBA74, \uC911\uAC04
+          \uACFC\uC815 \uC5C6\uC774 \uC989\uAC01 \uC801\uC6A9\uD569\uB2C8\uB2E4.
+          SmoothDamp \uD2B9\uC131 \uC0C1 \uC815\uD655\uD55C \uC2DC\uAC04\uC774 \uC544\uB2C8\uBA70
+          \uD574\uB2F9 \uC9C0\uC810\uC5D0 \uC0C1\uB2F9\uD788 \uADFC\uC811\uD560 \uB54C\uAE4C\uC9C0\uC758
+          \uC2DC\uAC04\uC73C\uB85C \uC2E4\uC81C\uB85C\uB294 \uADF8\uBCF4\uB2E4 \uC870\uAE08
+          \uB354 \uC2DC\uAC04\uC774 \uAC78\uB9BD\uB2C8\uB2E4."
+        area:
+          rid: 6888407645006069864
+        section:
+          rid: -2
+        MoveMultiplier: 0.01
+        MovableX: 1
+        MovableY: 1
+        reversedDirection: 0
+        setCustom: 0
+        customValue: {x: 0, y: 0}
+    - rid: 6888407645006069864
+      type: {class: BackgroundObjectArea, ns: CameraBehaviour.DataLayer.Config.Area, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        checkOnlyCenter: 0
+        alert: "\uD574\uB2F9 \uC601\uC5ED \uC124\uC815\uC740 \uC678\uBD80 \uBAA8\uB4C8\uC778
+          Example\uC758 \uAE30\uB2A5\uC744 \uC0AC\uC6A9\uD569\uB2C8\uB2E4.\r\n\uC52C\uC5D0
+          Example \uBAA8\uB4C8\uC774 \uB4F1\uB85D\uB418\uC5B4\uC788\uB294\uC9C0 \uD655\uC778\uD558\uC138\uC694."
+    - rid: 6888407645006069866
+      type: {class: CallDirectConfig, ns: CameraBehaviour.DataLayer.Config.Input, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        minDelta: 0
+        callingName: testCalling
+    - rid: 6888407645006069868
+      type: {class: FixedDistanceMoveActionConfig, ns: CameraBehaviour.DataLayer.Config.Action.Move, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        actionDelay: 0
+        smoothTime: 0
+        smoothTimeInfo: "\uB3D9\uC791 \uC2DC\uAC04\uC774 0\uC774\uBA74, \uC911\uAC04
+          \uACFC\uC815 \uC5C6\uC774 \uC989\uAC01 \uC801\uC6A9\uD569\uB2C8\uB2E4.
+          SmoothDamp \uD2B9\uC131 \uC0C1 \uC815\uD655\uD55C \uC2DC\uAC04\uC774 \uC544\uB2C8\uBA70
+          \uD574\uB2F9 \uC9C0\uC810\uC5D0 \uC0C1\uB2F9\uD788 \uADFC\uC811\uD560 \uB54C\uAE4C\uC9C0\uC758
+          \uC2DC\uAC04\uC73C\uB85C \uC2E4\uC81C\uB85C\uB294 \uADF8\uBCF4\uB2E4 \uC870\uAE08
+          \uB354 \uC2DC\uAC04\uC774 \uAC78\uB9BD\uB2C8\uB2E4."
+        area:
+          rid: 6888407645006069870
+        section:
+          rid: -2
+        MoveMultiplier: 1
+        MovableX: 1
+        MovableY: 0
+        reversedDirection: 1
+        setCustom: 1
+        customValue: {x: 2, y: 2}
+        customDistance: 3
+    - rid: 6888407645006069870
+      type: {class: BackgroundObjectArea, ns: CameraBehaviour.DataLayer.Config.Area, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        checkOnlyCenter: 0
+        alert: "\uD574\uB2F9 \uC601\uC5ED \uC124\uC815\uC740 \uC678\uBD80 \uBAA8\uB4C8\uC778
+          Example\uC758 \uAE30\uB2A5\uC744 \uC0AC\uC6A9\uD569\uB2C8\uB2E4.\r\n\uC52C\uC5D0
+          Example \uBAA8\uB4C8\uC774 \uB4F1\uB85D\uB418\uC5B4\uC788\uB294\uC9C0 \uD655\uC778\uD558\uC138\uC694."
+    - rid: 6888407645006069871
+      type: {class: MouseWheelConfig, ns: CameraBehaviour.DataLayer.Config.Input, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        minDelta: 0
+    - rid: 6888407645006069873
+      type: {class: ZoomActionConfig, ns: CameraBehaviour.DataLayer.Config.Action.Zoom, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        actionDelay: 0
+        smoothTime: 0
+        smoothTimeInfo: "\uB3D9\uC791 \uC2DC\uAC04\uC774 0\uC774\uBA74, \uC911\uAC04
+          \uACFC\uC815 \uC5C6\uC774 \uC989\uAC01 \uC801\uC6A9\uD569\uB2C8\uB2E4.
+          SmoothDamp \uD2B9\uC131 \uC0C1 \uC815\uD655\uD55C \uC2DC\uAC04\uC774 \uC544\uB2C8\uBA70
+          \uD574\uB2F9 \uC9C0\uC810\uC5D0 \uC0C1\uB2F9\uD788 \uADFC\uC811\uD560 \uB54C\uAE4C\uC9C0\uC758
+          \uC2DC\uAC04\uC73C\uB85C \uC2E4\uC81C\uB85C\uB294 \uADF8\uBCF4\uB2E4 \uC870\uAE08
+          \uB354 \uC2DC\uAC04\uC774 \uAC78\uB9BD\uB2C8\uB2E4."
+        area:
+          rid: 6888407645006069874
+        section:
+          rid: -2
+        zoomMultiplier: 0.1
+        reversedDirection: 0
+        setCustom: 0
+        isZoom: 0
+        zoomValue: 0
+    - rid: 6888407645006069874
+      type: {class: BackgroundObjectArea, ns: CameraBehaviour.DataLayer.Config.Area, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        checkOnlyCenter: 0
+        alert: "\uD574\uB2F9 \uC601\uC5ED \uC124\uC815\uC740 \uC678\uBD80 \uBAA8\uB4C8\uC778
+          Example\uC758 \uAE30\uB2A5\uC744 \uC0AC\uC6A9\uD569\uB2C8\uB2E4.\r\n\uC52C\uC5D0
+          Example \uBAA8\uB4C8\uC774 \uB4F1\uB85D\uB418\uC5B4\uC788\uB294\uC9C0 \uD655\uC778\uD558\uC138\uC694."
+    - rid: 6888407645006069875
+      type: {class: MouseWheelConfig, ns: CameraBehaviour.DataLayer.Config.Input, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        minDelta: 0
+    - rid: 6888407645006069876
+      type: {class: MoveActionConfig, ns: CameraBehaviour.DataLayer.Config.Action.Move, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        actionDelay: 0
+        smoothTime: 0
+        smoothTimeInfo: "\uB3D9\uC791 \uC2DC\uAC04\uC774 0\uC774\uBA74, \uC911\uAC04
+          \uACFC\uC815 \uC5C6\uC774 \uC989\uAC01 \uC801\uC6A9\uD569\uB2C8\uB2E4.
+          SmoothDamp \uD2B9\uC131 \uC0C1 \uC815\uD655\uD55C \uC2DC\uAC04\uC774 \uC544\uB2C8\uBA70
+          \uD574\uB2F9 \uC9C0\uC810\uC5D0 \uC0C1\uB2F9\uD788 \uADFC\uC811\uD560 \uB54C\uAE4C\uC9C0\uC758
+          \uC2DC\uAC04\uC73C\uB85C \uC2E4\uC81C\uB85C\uB294 \uADF8\uBCF4\uB2E4 \uC870\uAE08
+          \uB354 \uC2DC\uAC04\uC774 \uAC78\uB9BD\uB2C8\uB2E4."
+        area:
+          rid: 6888407645006069877
+        section:
+          rid: -2
+        MoveMultiplier: 1
+        MovableX: 1
+        MovableY: 1
+        reversedDirection: 0
+        setCustom: 1
+        customValue: {x: 0, y: 0}
+    - rid: 6888407645006069877
+      type: {class: BackgroundObjectArea, ns: CameraBehaviour.DataLayer.Config.Area, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        checkOnlyCenter: 0
+        alert: "\uD574\uB2F9 \uC601\uC5ED \uC124\uC815\uC740 \uC678\uBD80 \uBAA8\uB4C8\uC778
+          Example\uC758 \uAE30\uB2A5\uC744 \uC0AC\uC6A9\uD569\uB2C8\uB2E4.\r\n\uC52C\uC5D0
+          Example \uBAA8\uB4C8\uC774 \uB4F1\uB85D\uB418\uC5B4\uC788\uB294\uC9C0 \uD655\uC778\uD558\uC138\uC694."
+    - rid: 6888407645006069878
+      type: {class: MouseClickConfig, ns: CameraBehaviour.DataLayer.Config.Input, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        minDelta: 0
+        _clickType: 0
+        _detectState: 1
+    - rid: 6888407645006069879
+      type: {class: FixedSizeZoomActionConfig, ns: CameraBehaviour.DataLayer.Config.Action.Zoom, asm: MoHoDu.TouchCamera2DForUnity}
+      data:
+        actionDelay: 0
+        smoothTime: 0
+        smoothTimeInfo: "\uB3D9\uC791 \uC2DC\uAC04\uC774 0\uC774\uBA74, \uC911\uAC04
+          \uACFC\uC815 \uC5C6\uC774 \uC989\uAC01 \uC801\uC6A9\uD569\uB2C8\uB2E4.
+          SmoothDamp \uD2B9\uC131 \uC0C1 \uC815\uD655\uD55C \uC2DC\uAC04\uC774 \uC544\uB2C8\uBA70
+          \uD574\uB2F9 \uC9C0\uC810\uC5D0 \uC0C1\uB2F9\uD788 \uADFC\uC811\uD560 \uB54C\uAE4C\uC9C0\uC758
+          \uC2DC\uAC04\uC73C\uB85C \uC2E4\uC81C\uB85C\uB294 \uADF8\uBCF4\uB2E4 \uC870\uAE08
+          \uB354 \uC2DC\uAC04\uC774 \uAC78\uB9BD\uB2C8\uB2E4."
+        area:
+          rid: -2
+        section:
+          rid: -2
+        zoomMultiplier: 0.1
+        reversedDirection: 0
+        setCustom: 1
+        isZoom: 1
+        zoomValue: 1
+        fixedSize: 2
