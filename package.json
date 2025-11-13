@@ -7,7 +7,7 @@
   "dependencies": {},
   "samples": [
     {
-      "displayName": "이동/줌 동작 테스트 씬 3종",
+      "displayName": "move/zoom test sample 01",
       "description": "이동 및 줌을 씬 별로 세팅한 예시 입니다. 폴더 내 모든 씬을 Build Profile의 씬 목록에 추가한 뒤에 TestScene01 씬부터 실행해주세요.",
       "path": "Samples/Sample01"
     }
