@@ -260,4 +260,4 @@ https://github.com/MoHoDu/TouchCamera2DForUnity.git
 
 MIT License
 
-자세한 내용은 [LICENSE.md]("LICENSE.md") 파일 참고
+자세한 내용은 [LICENSE.md](./LICENSE.md) 파일 참고
