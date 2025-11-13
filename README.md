@@ -4,7 +4,7 @@
 ![Releases](https://img.shields.io/github/release/MoHoDu/TouchCamera2DForUnity.svg)
 
 입력에 대한 2D 카메라의 동작을 씬마다 정의하고, 차례대로 동작시키는 유니티 커스텀 패키지입니다.
-<br><br>참고: 이 프로젝트는 [hadashiA/VContainer]("https://github.com/hadashiA/VContainer?tab=readme-ov-file")를 라이선스 MIT 하에 사용하여 만들었습니다. 해당 패키지를 설치하기 이전에 반드시 [hadashiA/VContainer]("https://github.com/hadashiA/VContainer?tab=readme-ov-file")에서 VContainer 라이브러리를 설치하세요.
+<br><br>참고: 이 프로젝트는 [hadashiA/VContainer](https://github.com/hadashiA/VContainer?tab=readme-ov-file)를 라이선스 MIT 하에 사용하여 만들었습니다. 해당 패키지를 설치하기 이전에 반드시 [hadashiA/VContainer](https://github.com/hadashiA/VContainer?tab=readme-ov-file)에서 VContainer 라이브러리를 설치하세요.
 <br><br>
 
 ## 🗒️ 프로젝트 소개
@@ -131,7 +131,7 @@ graph TB;
 
 입력/동작/범위 타입의 확장성을 고려해 전략 패턴(Strategy Pattern)을 사용하였습니다. 이에 따라 컴파일 타임에서 지정하기 보다는 동적으로 객체 간 연결이 필요했고, DI를 사용하여 연결하기로 하였습니다.
 
-DI를 조금 더 구조적으로 관리하기 위해 [hadashiA/VContainer]("https://github.com/hadashiA/VContainer/releases/tag/1.17.0") 라이브러리를 사용했습니다. 해당 라이브러리는 컴파일 단계에 Scope별로 타입에 대한 인스턴스를 원하는 객체에 주입시킬 수 있어 다음의 장점이 있습니다.
+DI를 조금 더 구조적으로 관리하기 위해 [hadashiA/VContainer](https://github.com/hadashiA/VContainer/releases/tag/1.17.0) 라이브러리를 사용했습니다. 해당 라이브러리는 컴파일 단계에 Scope별로 타입에 대한 인스턴스를 원하는 객체에 주입시킬 수 있어 다음의 장점이 있습니다.
 
 - **높은 확장성** : 새로운 입력/동작/범위 로직을 생성할 때마다 조건문 등의 추가적인 코드로 주입시킬 필요 없어 유지보수의 범위가 줄어듭니다.
 - **전략 패턴과 상호보완성** : 인터페이스를 통해 컨테이너에 등록할 수 있어 씬마다 동적으로 다른 인스턴스를 쉽게 주입 할 수 있습니다.
@@ -145,12 +145,12 @@ DI를 조금 더 구조적으로 관리하기 위해 [hadashiA/VContainer]("http
 <br><br>
 [![hadashiA/VContainer](https://img.shields.io/badge/hadashiA/VContainer-v1.17.0-000.svg)]("https://github.com/hadashiA/VContainer/releases/tag/1.17.0")
 <br>
-해당 프로젝트는 의존성 주입을 위해 [hadashiA/VContainer]("https://github.com/hadashiA/VContainer/releases/tag/1.17.0") 라이브러리를 사용하였습니다.
+해당 프로젝트는 의존성 주입을 위해 [hadashiA/VContainer](https://github.com/hadashiA/VContainer/releases/tag/1.17.0) 라이브러리를 사용하였습니다.
 <br><br>
 
 ## 💾 패키지 설치 방법
 
-⚠️ 주의 사항: import 하려는 프로젝트에 [hadashiA/VContainer]("https://github.com/hadashiA/VContainer/releases/tag/1.17.0") 라이브러리를 먼저 설치하세요.
+⚠️ 주의 사항: import 하려는 프로젝트에 [hadashiA/VContainer](https://github.com/hadashiA/VContainer/releases/tag/1.17.0) 라이브러리를 먼저 설치하세요.
 
 ### Unity Package Manager
 
@@ -166,7 +166,7 @@ https://github.com/MoHoDu/TouchCamera2DForUnity.git
 
 ### UnityPackage
 
-1. `.unitypackage` 파일을 [releases]("https://github.com/MoHoDu/TouchCamera2DForUnity/releases") 페이지에서 다운 받습니다.
+1. `.unitypackage` 파일을 [releases](https://github.com/MoHoDu/TouchCamera2DForUnity/releases) 페이지에서 다운 받습니다.
 2. `TouchCamera2DForUnity.x.x.x.unitypackage` 파일을 실행합니다.
 
 <br>
